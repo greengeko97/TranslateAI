@@ -10,6 +10,7 @@ st.markdown("<h1 style='text-align: center; color: #4285F4;'>TranslateAI</h1>", 
 GOOGLE_API_KEY = st.secrets["AQ.Ab8RN6KN9oBhvpI8BiQL7hgKZGihc2kLRNnzGXxdCjYOg0al-w"]
 
 
+
 # Pornim conexiunea cu AI-ul Google
 try:
     client = genai.Client(api_key=GOOGLE_API_KEY)
