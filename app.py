@@ -7,7 +7,8 @@ st.set_page_config(page_title="TranslateAI", layout="wide")
 st.markdown("<h1 style='text-align: center; color: #4285F4;'>TranslateAI</h1>", unsafe_allow_html=True)
 
 # Cheia ta reală de la Gemini din imagine
-GOOGLE_API_KEY = "AQ.Ab8RN6KN9oBhvpI8BiQL7hgKZGihc2kLRNnzGXxdCjYOg0al-w"
+GOOGLE_API_KEY = st.secrets["AQ.Ab8RN6KN9oBhvpI8BiQL7hgKZGihc2kLRNnzGXxdCjYOg0al-w"]
+
 
 # Pornim conexiunea cu AI-ul Google
 try:
